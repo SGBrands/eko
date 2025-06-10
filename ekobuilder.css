@@ -11116,12 +11116,16 @@ a[data-role="new-service"]:hover::after {
 .filter-nav.members-subnav ul [data-action="addMemberGroup"] {
   width: 155px;
   padding: 3px 20px;
-  font-size: 0px;
+  /* font-size: 0px; */
   bottom: 20px !important;
   position: absolute;
+  
+  font-size: 13px;
+  display: block;
+  text-align: center;
 }
 
-.filter-nav.members-subnav ul [data-action="addMemberGroup"]::before {
+/* .filter-nav.members-subnav ul [data-action="addMemberGroup"]::before {
   content: "Add Group";
   font-size: 13px;
   text-align: center;
@@ -11132,7 +11136,7 @@ a[data-role="new-service"]:hover::after {
   top: 6px;
   margin: 0 !important;
   text-decoration: none;
-}
+} */
 
 #inline-popup
   .inline-popup-content
