@@ -14418,4 +14418,10 @@ a[data-action="composeEmail"].button-tooltip:hover {
 {
 	font-size: 13px;
 }
+
+.force-note-editor-to-right.force-note-editor-to-right.force-note-editor-to-right
+{
+	left: unset !important;
+	right: 0 !important;
+}
 /* END OF SIGH CSS */
