@@ -14412,3 +14412,10 @@ a[data-action="composeEmail"].button-tooltip:hover {
   color: #2291f8 !important;
   transition: color 0.3s ease !important;
 }
+
+/* SIGH CSS */
+.note-editor .btn-sm .fa
+{
+	font-size: 13px;
+}
+/* END OF SIGH CSS */
