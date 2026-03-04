@@ -14180,39 +14180,31 @@ input[type="radio"].css-checkbox + label.css-label:hover::after {
   content: "";
 }
 
-.system-emails-wrapper > .email-section-description + .t-center a:nth-child(1),
-.system-emails-wrapper > .email-section-description + .t-center a:nth-child(2) {
-  display: none;
-  position: relative;
-  font-family: "Material Icons Outlined";
-  font-weight: 400;
+.system-emails-wrapper > .email-section-description + .t-center a:nth-child(1):not(.members-nav .section-bg.members-wrapper .system-emails-wrapper > .email-section-description + .t-center a),
+.system-emails-wrapper > .email-section-description + .t-center a:nth-child(2):not(.members-nav .section-bg.members-wrapper .system-emails-wrapper > .email-section-description + .t-center a)
+{
+	display: none;
+	position: relative;
+	font-family: "Material Icons Outlined";
+	font-weight: 400;
 }
 
-.system-emails-wrapper
-  > .email-section-description
-  + .t-center
-  a:nth-child(1):before,
-.system-emails-wrapper
-  > .email-section-description
-  + .t-center
-  a:nth-child(2):before {
-  left: 50%;
-  font-size: 80px;
-  color: inherit;
+.system-emails-wrapper > .email-section-description + .t-center a:nth-child(1):not(.members-nav .section-bg.members-wrapper .system-emails-wrapper > .email-section-description + .t-center a):before,
+.system-emails-wrapper > .email-section-description + .t-center a:nth-child(2):not(.members-nav .section-bg.members-wrapper .system-emails-wrapper > .email-section-description + .t-center a):before
+{
+	left: 50%;
+	font-size: 80px;
+	color: inherit;
 }
 
-.system-emails-wrapper
-  > .email-section-description
-  + .t-center
-  a:nth-child(1):before {
-  content: "mail";
+.system-emails-wrapper > .email-section-description + .t-center a:nth-child(1):not(.members-nav .section-bg.members-wrapper .system-emails-wrapper > .email-section-description + .t-center a):before
+{
+	content: "mail";
 }
 
-.system-emails-wrapper
-  > .email-section-description
-  + .t-center
-  a:nth-child(2):before {
-  content: "mark_email_read";
+.system-emails-wrapper > .email-section-description + .t-center a:nth-child(2):not(.members-nav .section-bg.members-wrapper .system-emails-wrapper > .email-section-description + .t-center a):before
+{
+	content: "mark_email_read";
 }
 
 .email-builder-content input.slider-val {
@@ -14349,6 +14341,16 @@ a[data-action="composeEmail"].button-tooltip:hover {
 
 
 /** SIGH NEW CSS **/
+body.lms-nav-compact .working-area-wrapper-inner > .admin-circle-wrapper > .advanced-buttons-wrapper:first-child
+{
+	margin-top: 15px;
+}
+
+.members-wrapper .list-circle-wrapper .list-circle-controls > a.order-status:first-of-type
+{
+	width: max-content;
+}
+
 body, .dropdown-content, .dropdown-content h1, .dropdown-content h2, .dropdown-content h3, .dropdown-content h4, .dropdown-content h5, .dropdown-content h6, .dropdown-content a.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav.dash-dropdown-nav, .switch-funnel-site.switch-funnel-site h3
 {
 	font-family: var(--globalFont);
