@@ -11521,7 +11521,7 @@ a[data-role="new-service"]:hover::after {
 
 .booking-buttons-wrapper h1.members-title,
 .booking-buttons-wrapper .create-booking-btn,
-.account-settings a.back-to-next-step[rel="tab"] {
+.account-settings a.back-to-next-step[rel="tab"]:not([href="/me/crm/bookings"]):not(a[href="/me/store/products"]) {
   font-size: 0 !important;
 }
 
@@ -11530,6 +11530,7 @@ a[data-role="new-service"]:hover::after {
   font-size: 22px !important;
 }
 
+/*
 .account-settings a.back-to-next-step[href="/me/crm/bookings"]:before {
   content: "â† Back To All Event Types";
   font-size: 16px !important;
@@ -11540,6 +11541,7 @@ a[data-role="new-service"]:hover::after {
   content: "â† Back To Products";
   font-size: 16px !important;
 }
+*/
 
 .account-settings a.back-to-next-step[data-action="back"] {
   font-size: 16px !important;
