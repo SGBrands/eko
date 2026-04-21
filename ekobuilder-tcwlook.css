@@ -14550,4 +14550,50 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 {
 	background: #ffffff;
 }
+
+/* CHANGE TOP MENU ITEM Contacts TEXT TO CRM */
+#action-bar .logo-navs-wrapper .top-bar-nav-item#engageBtn span:before
+{
+	content: "CRM";
+    font-size: 14px;
+}
+#action-bar .logo-navs-wrapper .top-bar-nav-item#engageBtn span {
+    font-size: 0;
+    display: flex;
+}
+/* END OF CHANGE TOP MENU ITEM Contacts TEXT TO CRM */
+
+/* CHANGE TOP MENU ITEM Messaging & Workflows to Marketing then to Emails & Automations */
+#action-bar .logo-navs-wrapper .top-bar-nav-item#marketingBtn span:before {
+  /* content: "Marketing"; */
+  content: "Emails & Automations";
+  font-size: 14px;
+}
+#action-bar .logo-navs-wrapper .top-bar-nav-item#marketingBtn span {
+  font-size: 0;
+  display: flex;
+}
+/* CHANGE TOP MENU ITEM Messaging & Workflows to Marketing then to Emails & Automations */
+
+/* CHANGE Messaging & Workflows (Emails & Automations) > Campaigns Menu Item to Newsletters & SMS */
+body.members-nav .members-navigation ul.mobile-hidden li.campaigns > a[href='/me/crm/marketing/campaigns'] > span:has(.material-icons-outlined):after {
+	content: "Newsletters & SMS";
+	font-size: 15px;
+}
+body.members-nav .members-navigation ul.mobile-hidden li.campaigns > a[href='/me/crm/marketing/campaigns'] > span:has(.material-icons-outlined) {
+	font-size: 0;
+}
+/* END OF CHANGE Messaging & Workflows (Emails & Automations) > Campaigns Menu Item to Newsletters & SMS */
+
+/* COMMUNITY > CIRCLES > VIDEO PLAYLIST SETTINGS WIDGET TITLE FIX */
+body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPlaylistSetting) .cpanel-popup-title .ptSans:before
+{
+	content: "Video Playlist";
+}
+body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPlaylistSetting) .popup-widget-wrapper > h4.h4-bigger
+{
+	display: none;
+}
+/* END OF COMMUNITY > CIRCLES > VIDEO PLAYLIST SETTINGS WIDGET TITLE FIX */
+
 /** END OF SIGH NEW CSS **/
