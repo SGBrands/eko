@@ -14603,6 +14603,10 @@ body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPla
 {
 	background: unset;
 }
+[data-type="Container"] > .container-nav.container-nav2 > a.container-actions.button-tooltip:hover
+{
+	background: #f1f3f6 !important;
+}
 [data-type="Container"] > .container-nav.container-nav2 > a.container-actions.button-tooltip .material-icons
 {
 	position: relative;
@@ -14614,6 +14618,7 @@ body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPla
     line-height: 36px;
     color: #495057;
 	text-align: center;
+	margin: 0px 5px 5px 5px;
 }
 
 .addWidgetsSubCategory .widget-item .video-playlist-icon:before
