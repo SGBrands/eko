@@ -5561,11 +5561,13 @@ span#virtualBtn-4 a,
   z-index: 9999 !important;
 }
 
+/*
 .addWidgetsWindow .cpanel-popup-title,
 .addWidgetsSubCategory,
 .addWidgetsSubCategory .widget-item:not(.ui-draggable-dragging) {
   background: #fff !important;
 }
+*/
 
 .addWidgetsWindow .cpanel-popup-title::before {
   background-color: #fff !important;
@@ -14607,6 +14609,10 @@ body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPla
 {
 	background: #f1f3f6 !important;
 }
+[data-type="Container"] > .container-nav.container-nav2 > a.container-actions.button-tooltip
+{
+	margin: 0px 5px 5px 5px !important;
+}
 [data-type="Container"] > .container-nav.container-nav2 > a.container-actions.button-tooltip .material-icons
 {
 	position: relative;
@@ -14618,7 +14624,61 @@ body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPla
     line-height: 36px;
     color: #495057;
 	text-align: center;
-	margin: 0px 5px 5px 5px;
+}
+
+.addWidgetsSubCategory .widget-item .headline-pill-icon:before
+{
+	content: "newspaper";
+}
+
+.addWidgetsSubCategory .widget-item .icon-list-icon:before
+{
+	content: "format_list_bulleted";
+}
+
+.addWidgetsSubCategory .widget-item .scrolling-text-icon:before
+{
+	content: "keyboard_double_arrow_down";
+}
+
+.addWidgetsSubCategory .widget-item .social-proof-icon:before
+{
+	content: "stars";
+}
+
+.addWidgetsSubCategory .widget-item .table-widget-icon:before
+{
+	content: "table";
+}
+
+.addWidgetsSubCategory .widget-item .testimonials-icon:before
+{
+	content: "rate_review";
+}
+
+.addWidgetsSubCategory .widget-item .timeline-icon:before
+{
+	content: "timeline";
+}
+
+.addWidgetsSubCategory .widget-item .hotspot-image-icon:before
+{
+	content: "add_photo_alternate";
+}
+
+.addWidgetsSubCategory .widget-item .image-autorotator-icon:before
+{
+	content: "view_carousel";
+}
+
+.addWidgetsSubCategory .widget-item .image-comparison-icon:before
+{
+	content: "compare";
+}
+
+.addWidgetsSubCategory .widget-item .video-autorotator-icon:before
+{
+	content: "video_chat";
 }
 
 .addWidgetsSubCategory .widget-item .video-playlist-icon:before
@@ -14654,6 +14714,46 @@ body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPla
 .addWidgetsSubCategory .widget-item .wall-icon:before
 {
 	content: "speaker_notes";
+}
+
+.addWidgetsSubCategory .widget-item .pricing-comparison-icon:before
+{
+	content: "price_check";
+}
+
+.addWidgetsSubCategory .widget-item .pricing-widget-icon:before
+{
+	content: "attach_money";
+}
+
+.addWidgetsSubCategory .widget-item .subscription-widget-icon:before
+{
+	content: "date_range";
+}
+
+.addWidgetsSubCategory .widget-item .builder-signin-icon:before
+{
+	content: "badge";
+}
+
+.addWidgetsSubCategory .widget-item .themes-icon:before
+{
+	content: "view_compact";
+}
+
+.addWidgetsSubCategory .widget-item .chart-widget-icon:before
+{
+	content: "insert_chart";
+}
+
+.addWidgetsSubCategory .widget-item .stat-counter-icon:before
+{
+	content: "3k_plus";
+}
+
+.addWidgetsSubCategory .widget-item .team-members-icon:before
+{
+	content: "groups_2";
 }
 /* END OF AUGUST 2026 UPDATES */
 
