@@ -14598,4 +14598,58 @@ body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPla
 }
 /* END OF COMMUNITY > CIRCLES > VIDEO PLAYLIST SETTINGS WIDGET TITLE FIX */
 
+/* AUGUST 2026 UPDATES */
+[data-type="Container"] > .container-nav.container-nav2 > a
+{
+	background: unset;
+}
+[data-type="Container"] > .container-nav.container-nav2 > a.container-actions.button-tooltip .material-icons
+{
+	position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    line-height: 36px;
+    color: #495057;
+	text-align: center;
+}
+
+.addWidgetsSubCategory .widget-item .video-playlist-icon:before
+{
+	content: "playlist_play";
+}
+
+.addWidgetsSubCategory .widget-item .circle-widget-icon:before
+{
+	content: "adjust";
+}
+
+.addWidgetsSubCategory .widget-item .circles-widget-icon:before
+{
+	content: "workspaces";
+}
+
+.addWidgetsSubCategory .widget-item .comment-icon:before
+{
+	content: "comment";
+}
+
+.addWidgetsSubCategory .widget-item .discussion-icon:before
+{
+	content: "forum";
+}
+
+.addWidgetsSubCategory .widget-item .review-icon:before
+{
+	content: "reviews";
+}
+
+.addWidgetsSubCategory .widget-item .wall-icon:before
+{
+	content: "speaker_notes";
+}
+/* END OF AUGUST 2026 UPDATES */
+
 /** END OF SIGH NEW CSS **/
