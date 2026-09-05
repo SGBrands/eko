@@ -3944,12 +3944,6 @@ a.delete-coupon i:before {
   border-radius: 50%;
 }
 
-/*#blogItem .wrapper .blog-edit-area .blog-buttons-wrapper .publishBlogPostBtn:hover
-{
-    background: transparent !important;
-    color: rgb(32, 196, 9) !important;
-    border: 1px solid rgb(32, 196, 9) !important;
-}*/
 #blogItem
   .wrapper
   .blog-edit-area
@@ -12293,30 +12287,6 @@ div[data-role="settings-content"] .group-settings .popup-input-wrapper:before {
   background: var(--globalBlue) !important;
 }
 
-.publishBlogPostBtn:not(.blog-area .blog-article-editing #blogEditToolbar .publishBlogPostBtn) {
-  visibility: hidden;
-  height: 42px !important;
-}
-
-/*BLOG POST FIX*/
-.publishBlogPostBtn:not(.blog-area .blog-article-editing #blogEditToolbar .publishBlogPostBtn):after {
-  content: "Publish";
-  visibility: visible;
-  float: right;
-  box-sizing: unset;
-  height: 32px;
-  line-height: 32px;
-  min-width: 72px;
-  width: auto;
-  padding: 0px 12px;
-  border-radius: 4px;
-  text-transform: capitalize;
-  background: #fff !important;
-  color: #ccc !important;
-  border: 1px solid #ccc !important;
-  transition: background-color 0.3s ease !important;
-}
-
 #blogItem .wrapper .blog-edit-area .blog-buttons-wrapper .saveBlogPostBtn {
   margin-right: -35px;
   margin-top: 1px;
@@ -14728,17 +14698,4 @@ body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPla
 	content: "groups_2";
 }
 /* END OF AUGUST 2026 UPDATES */
-
-/* SEPTEMBER 5, 2026 UPDATES */
-#active-widget-settings#active-widget-settings.active-widget-settings.active-widget-settings
-{
-	height: 45px;
-	
-}
-#active-widget-settings#active-widget-settings.active-widget-settings.active-widget-settings > *
-{
-	height: calc(100% - 8px);
-	color: #495057;
-}
-/* END OF SEPTEMBER 5, 2026 UPDATES */
 /** END OF SIGH NEW CSS **/
